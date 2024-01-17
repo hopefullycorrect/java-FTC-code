@@ -6,11 +6,15 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.stream.Collectors;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -18,12 +22,63 @@ import javax.swing.table.DefaultTableModel;
  * @author harta
  */
 public class FormTampilKalimat extends javax.swing.JFrame {
+    private final JFileChooser  openFileChooser;
     /**
      * Creates new form FormTampilKalimat
      */
+    private int getLastUsedIDFromDatabase() {
+        int lastUsedID = 0;
+        try {
+            Class.forName(driver);
+            Connection kon = DriverManager.getConnection(database, user, pass);
+            Statement stt = kon.createStatement();
+            ResultSet res = stt.executeQuery("SELECT MAX(id_tweet) FROM tb_tweet");
+
+            if (res.next()) {
+                lastUsedID = res.getInt(1);
+            }
+
+            res.close();
+            stt.close();
+            kon.close();
+        } catch (Exception exc) {
+            System.err.println(exc.getMessage());
+        }
+        return lastUsedID;
+    }
+
+    private void setAutoIncrementValue(int lastUsedID) {
+        try {
+            Class.forName(driver);
+            Connection kon = DriverManager.getConnection(database, user, pass);
+            Statement stt = kon.createStatement();
+            String alterTableSQL = "ALTER TABLE tb_tweet AUTO_INCREMENT = " + lastUsedID;
+            stt.executeUpdate(alterTableSQL);
+            stt.close();
+            kon.close();
+        } catch (Exception exc) {
+            System.err.println(exc.getMessage());
+        }
+    }
+
+    
     Database dbsetting; String driver, database, user, pass;
     public FormTampilKalimat() {
         initComponents();
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(380, 130, 110, 23);
+        getContentPane().add(txtpath);
+        txtpath.setBounds(170, 130, 190, 22);
+        
+        
+        openFileChooser = new JFileChooser();
+        openFileChooser.setCurrentDirectory(new File("c:\\temp"));
+        openFileChooser.setFileFilter(new FileNameExtensionFilter("Text files (*.txt)", "txt"));
         dbsetting = new Database();
         driver = dbsetting.SettingPanel("DBDriver");
         database = dbsetting.SettingPanel("DBDatabase");
@@ -44,6 +99,50 @@ public class FormTampilKalimat extends javax.swing.JFrame {
         katasesuaiminsup();
         HitungEO();
     }
+    private void importFile() {
+        int lastUsedID = getLastUsedIDFromDatabase();
+        setAutoIncrementValue(lastUsedID);
+    int returnValue = openFileChooser.showOpenDialog(this);
+    if (returnValue == JFileChooser.APPROVE_OPTION) {
+        File selectedFile = openFileChooser.getSelectedFile();
+        txtpath.setText(selectedFile.getAbsolutePath());
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(selectedFile))) {
+            // Add your logic to read the file content and update UI
+            // For example, you can read each line and display it in a JTextArea
+            // You may need to adapt this part based on your specific requirements
+            StringBuilder content = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                content.append(line).append("\n");
+                // Perform database insertion for each line
+                insertIntoDatabase(line);
+            }
+            // Update your JTextArea or any other component with the file content
+            // For example, fileContentTextArea.setText(content.toString());
+        } catch (Exception e) {
+            e.printStackTrace();
+            JOptionPane.showMessageDialog(this, "Error reading file: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    } else {
+        JOptionPane.showMessageDialog(this, "No file selected", "Warning", JOptionPane.WARNING_MESSAGE);
+    }
+}
+
+private void insertIntoDatabase(String line) {
+        try {
+            Class.forName(driver);
+            Connection kon = DriverManager.getConnection(database, user, pass);
+            Statement stt = kon.createStatement();
+            String SQL = "INSERT INTO tb_tweet (`Created At`, id_tweet, text, username) VALUES (CURRENT_TIMESTAMP, NULL, '" + line + "', 'harta')";
+            stt.executeUpdate(SQL);
+            stt.close();
+            kon.close();
+        } catch (Exception exc) {
+            System.err.println(exc.getMessage());
+        }
+    }
+
     String[] data = new String[4];
     ArrayList<String> term = new ArrayList<String>();
     ArrayList<String> kalimat = new ArrayList<String>();
@@ -317,6 +416,11 @@ term = (ArrayList<String>) term.stream().distinct().collect(Collectors.toList())
         jLabel2.setBounds(60, 130, 80, 20);
 
         jButton1.setText("Browse");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
         jButton1.setBounds(380, 130, 110, 23);
         getContentPane().add(txtpath);
@@ -380,6 +484,10 @@ term = (ArrayList<String>) term.stream().distinct().collect(Collectors.toList())
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    importFile();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
