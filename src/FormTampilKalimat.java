@@ -74,8 +74,6 @@ public class FormTampilKalimat extends javax.swing.JFrame {
         jButton1.setBounds(380, 130, 110, 23);
         getContentPane().add(txtpath);
         txtpath.setBounds(170, 130, 190, 22);
-        
-        
         openFileChooser = new JFileChooser();
         openFileChooser.setCurrentDirectory(new File("c:\\temp"));
         openFileChooser.setFileFilter(new FileNameExtensionFilter("Text files (*.txt)", "txt"));
@@ -108,24 +106,18 @@ public class FormTampilKalimat extends javax.swing.JFrame {
         txtpath.setText(selectedFile.getAbsolutePath());
 
         try (BufferedReader reader = new BufferedReader(new FileReader(selectedFile))) {
-            // Add your logic to read the file content and update UI
-            // For example, you can read each line and display it in a JTextArea
-            // You may need to adapt this part based on your specific requirements
             StringBuilder content = new StringBuilder();
             String line;
             while ((line = reader.readLine()) != null) {
                 content.append(line).append("\n");
-                // Perform database insertion for each line
                 insertIntoDatabase(line);
             }
-            // Update your JTextArea or any other component with the file content
-            // For example, fileContentTextArea.setText(content.toString());
         } catch (Exception e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Error reading file: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "eror membaca txt: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     } else {
-        JOptionPane.showMessageDialog(this, "No file selected", "Warning", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(this, "tidak ada file dipilih", "Warning", JOptionPane.WARNING_MESSAGE);
     }
 }
 
@@ -134,20 +126,20 @@ private void insertIntoDatabase(String line) {
             Class.forName(driver);
             Connection kon = DriverManager.getConnection(database, user, pass);
             Statement stt = kon.createStatement();
-            String SQL = "INSERT INTO tb_tweet (`Created At`, id_tweet, text, username) VALUES (CURRENT_TIMESTAMP, NULL, '" + line + "', 'harta')";
+            String SQL = "INSERT INTO tb_tweet (`Created At`, id_tweet, text, username)"
+                    + "VALUES (CURRENT_TIMESTAMP,NULL, '" + line + "', 'harta')";
             stt.executeUpdate(SQL);
             stt.close();
             kon.close();
         } catch (Exception exc) {
             System.err.println(exc.getMessage());
         }
-        
     }
-
     String[] data = new String[4];
     ArrayList<String> term = new ArrayList<String>();
     ArrayList<String> kalimat = new ArrayList<String>();
     ArrayList<String> resultList = new ArrayList<>();
+    
     public void setDefaultTable(){
         String stat="";
         try{
@@ -209,11 +201,7 @@ private void insertIntoDatabase(String line) {
         for(int k = 0; k<term.size(); k++){
            System.out.println("term-"+k+":" +term.get(k));
         }
-    }
-    
-    public void setvectorcandidate(){
-        
-    }
+    }//    public void setvectorcandidate(){ }
     HashMap<String, Integer> katasesuaiMinsup = new HashMap<String, Integer>();
     public Map<String, ArrayList<String>> multiValueMap = new HashMap<String, ArrayList<String>>();
     int minsupport = 5;
@@ -249,27 +237,18 @@ term = (ArrayList<String>) term.stream().distinct().collect(Collectors.toList())
     } //CETAK ISI MULTIHASHMAP
     multiValueMap.forEach((key, value) -> {
     System.out.println(key + " " + value);
-});
-    System.out.println("Jumlah T1 =" + cekFrekuensiTweet("T1"));
-    System.out.println("Jumlah T0 =" + cekFrekuensiTweet("T0"));
-    System.out.println("Jumlah T2 =" + cekFrekuensiTweet("T2"));
-    System.out.println("Jumlah T3 =" + cekFrekuensiTweet("T3"));
-    }
+}); }
     
     public int cekFrekuensiTweet(Object o){
-        
         int counter=0;
         for (String k : multiValueMap.keySet()){ //loop key
-            
             for( int i = 0; i<multiValueMap.get(k).size(); i++){
                 //System.out.print(multiValueMap.get(k).get(i));
                 if(multiValueMap.get(k).get(i).equals(o.toString())){
                     counter++;
                 }
-        }
-        //System.out.println("");
-    }
-        return counter;
+        } //System.out.println("");
+    } return counter;
     }
     
         public void HitungEO(){
