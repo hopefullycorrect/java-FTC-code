@@ -141,6 +141,7 @@ private void insertIntoDatabase(String line) {
         } catch (Exception exc) {
             System.err.println(exc.getMessage());
         }
+        
     }
 
     String[] data = new String[4];
