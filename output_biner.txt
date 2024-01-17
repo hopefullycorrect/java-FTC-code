@@ -1,0 +1,504 @@
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+Term: vietnam, Frequency: 1
+EO for term vietnam: 0.34657359027997264
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+Term: vietnam, Frequency: 1
+EO for term vietnam: 0.34657359027997264
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+Term: vietnam, Frequency: 1
+EO for term vietnam: 0.34657359027997264
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+Term: anies, Frequency: 2
+EO for term anies: 0.6931471805599453
+
+Term: sudah, Frequency: 2
+EO for term sudah: 0.6931471805599453
+
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: sejak, Frequency: 2
+EO for term sejak: 0.6931471805599453
+
+Term: solo, Frequency: 2
+EO for term solo: 0.6931471805599453
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: itu, Frequency: 2
+EO for term itu: 0.6931471805599453
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+Term: dan, Frequency: 2
+EO for term dan: 0.6931471805599453
+
+Term: partai, Frequency: 2
+EO for term partai: 0.6931471805599453
+
+Term: eep, Frequency: 2
+EO for term eep: 0.6931471805599453
+
+Term: walikota, Frequency: 2
+EO for term walikota: 0.6931471805599453
+
+Term: ketika, Frequency: 2
+EO for term ketika: 0.6931471805599453
+
+Term: pekerja, Frequency: 2
+EO for term pekerja: 0.6931471805599453
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+Term: saifullah, Frequency: 2
+EO for term saifullah: 0.6931471805599453
+
+Term: bukan, Frequency: 2
+EO for term bukan: 0.6931471805599453
+
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+Term: vietnam, Frequency: 1
+EO for term vietnam: 0.34657359027997264
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: presiden, Frequency: 3
+EO for term presiden: 1.0397207708399179
+
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+Term: di, Frequency: 3
+EO for term di: 1.0397207708399179
+
+Term: jokowi, Frequency: 4
+EO for term jokowi: 1.3862943611198906
+
+Term: jadi, Frequency: 3
+EO for term jadi: 1.0397207708399179
+
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 0 1 1 
+0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 
